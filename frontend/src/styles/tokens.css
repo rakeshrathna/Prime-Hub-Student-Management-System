@@ -1,0 +1,69 @@
+/* ==========================================================================
+   Prime Hub — Design Tokens
+   A disciplined, sharp-edged enterprise console palette.
+   Primary surface: white. Structure: navy + slate. Accent: signal blue.
+   No border-radius on structural elements — flat, drafting-table precision.
+   ========================================================================== */
+
+:root {
+  /* ---- Surfaces ---- */
+  --bg: #ffffff;
+  --bg-subtle: #f6f7f9;
+  --bg-inset: #f0f2f5;
+  --bg-navy: #0e1526;
+  --bg-navy-raised: #161f36;
+
+  /* ---- Borders ---- */
+  --border: #e2e5eb;
+  --border-strong: #cbd0da;
+  --border-navy: #263252;
+
+  /* ---- Text ---- */
+  --ink: #12141c;
+  --ink-soft: #4b5566;
+  --ink-muted: #8890a0;
+  --ink-on-navy: #eef1f8;
+  --ink-on-navy-muted: #8b96b3;
+
+  /* ---- Brand / Accent ---- */
+  --blue: #2955d6;
+  --blue-dark: #1c3fa8;
+  --blue-soft: #eaf0fe;
+  --blue-soft-border: #c7d7fb;
+
+  /* ---- Status ---- */
+  --success: #187a4c;
+  --success-bg: #e6f6ed;
+  --success-border: #b7e3c8;
+
+  --warning: #a05a00;
+  --warning-bg: #fdf1de;
+  --warning-border: #f2d59f;
+
+  --danger: #b3261e;
+  --danger-bg: #fbeae9;
+  --danger-border: #f2c3c0;
+
+  --info: #2955d6;
+  --info-bg: #eaf0fe;
+  --info-border: #c7d7fb;
+
+  /* ---- Type ---- */
+  --font-display: "Space Grotesk", "Inter", sans-serif;
+  --font-body: "Inter", -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-mono: "IBM Plex Mono", "SFMono-Regular", Menlo, monospace;
+
+  /* ---- Shape ---- */
+  --radius: 2px;
+  --radius-sm: 1px;
+
+  /* ---- Elevation (used sparingly — flat design relies on borders, not shadow) ---- */
+  --shadow-sm: 0 1px 2px rgba(16, 20, 30, 0.06);
+  --shadow-md: 0 4px 16px rgba(16, 20, 30, 0.10);
+  --shadow-lg: 0 12px 32px rgba(16, 20, 30, 0.16);
+
+  /* ---- Layout ---- */
+  --sidebar-w: 244px;
+  --topbar-h: 60px;
+  --content-max: 1180px;
+}
