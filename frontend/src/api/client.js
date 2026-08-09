@@ -2,7 +2,7 @@ import axios from "axios";
 
 // Base URL points at the Spring Boot backend. Override by creating a
 // `.env` file (copy `.env.example`) with VITE_API_BASE_URL set.
-export const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || "http://localhost:8080";
+export const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || import.meta.env.VITE_API_URL || "http://localhost:8080";
 
 export const STORAGE_KEY = "primehub.session";
 
